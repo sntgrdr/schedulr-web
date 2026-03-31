@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Schedulr Hair Salon - Our history and works.">
+    <title>About Us | Schedulr Hair Salon</title>
+    
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Modular CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+    <!-- Header & Navbar -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold ls-1" href="index.html">
+                    Schedulr <span class="text-accent">Hair Salon</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-uppercase small fw-semibold">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="info.html">Hair Care</a></li>
+                        <li class="nav-item"><a class="nav-link" href="booking.html">Book Appointment</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-accent text-dark ms-lg-3 px-3 mt-2 mt-lg-0" href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Us & Our Works -->
+        <section id="about" class="min-vh-100 py-5 bg-dark text-light overflow-hidden">
+            <div class="container py-5">
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <span class="text-accent text-uppercase ls-1 fw-bold mb-2 d-block">Established 2015</span>
+                        <h2 class="display-5 fw-bold mb-4">Crafting Confidence Since Day One</h2>
+                        <p class="lead text-secondary mb-4">Schedulr Hair Salon was founded on the belief that a great haircut can change your day. Our shop has a rich history of serving the community with passion and excellence.</p>
+                        <p class="text-secondary">What started as a small two-chair boutique has grown into a premier destination for grooming. We blend traditional techniques with modern styles to create something truly unique for every client.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="worksCarousel" class="carousel slide shadow-lg rounded overflow-hidden" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#worksCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#worksCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#worksCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner" style="height: 450px;">
+                                <div class="carousel-item active">
+                                    <div class="carousel-placeholder bg-secondary d-flex align-items-center justify-content-center h-100">
+                                        <!-- here it goes an image -->
+                                        <div class="carousel-caption d-none d-md-block p-4 rounded" style="background: rgba(0,0,0,0.6);">
+                                            <h5>Modern Undercut</h5>
+                                            <p>Our signature look for the urban professional.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-placeholder bg-secondary d-flex align-items-center justify-content-center h-100">
+                                        <!-- here it goes an image -->
+                                        <div class="carousel-caption d-none d-md-block p-4 rounded" style="background: rgba(0,0,0,0.6);">
+                                            <h5>Classic Taper Fade</h5>
+                                            <p>Timeless style with a sharp, clean finish.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-placeholder bg-secondary d-flex align-items-center justify-content-center h-100">
+                                        <!-- here it goes an image -->
+                                        <div class="carousel-caption d-none d-md-block p-4 rounded" style="background: rgba(0,0,0,0.6);">
+                                            <h5>Tailored Beard Sculpting</h5>
+                                            <p>Precision grooming to enhance your natural features.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#worksCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#worksCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="min-vh-100 py-5">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-3">Our Work <span class="text-accent">Gallery</span></h2>
+                    <p class="text-muted">Take a look at some of the stunning transformations we've achieved lately.</p>
+                </div>
+                <div class="gallery-grid">
+                    <!-- 7+ images as small gallery -->
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5">
+        <div class="container py-3">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-4 text-accent">Schedulr Hair Salon</h5>
+                    <p class="small text-secondary mb-4">Precision grooming and luxury hair care for the modern individual. Elevating style since 2015.</p>
+                    <div class="social-icons d-flex gap-3 h4">
+                        <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-twitter-x"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2 ms-lg-auto">
+                    <h6 class="fw-bold mb-4">Quick Links</h6>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="index.html" class="text-secondary text-decoration-none hover-accent">Home</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-secondary text-decoration-none hover-accent">About Us</a></li>
+                        <li class="mb-2"><a href="info.html" class="text-secondary text-decoration-none hover-accent">Hair Care</a></li>
+                        <li class="mb-2"><a href="booking.html" class="text-secondary text-decoration-none hover-accent">Booking</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <h6 class="fw-bold mb-4">Opening Hours</h6>
+                    <ul class="list-unstyled small text-secondary">
+                        <li class="mb-2 d-flex justify-content-between"><span>Mon - Fri</span> <span>09:00 - 19:00</span></li>
+                        <li class="mb-2 d-flex justify-content-between"><span>Saturday</span> <span>10:00 - 18:00</span></li>
+                        <li class="mb-2 d-flex justify-content-between"><span>Sunday</span> <span>Closed</span></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <h6 class="fw-bold mb-4">Newsletter</h6>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control bg-dark border-secondary text-light small" placeholder="Email address">
+                        <button class="btn btn-accent" type="button"><i class="bi bi-send"></i></button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-5 border-secondary">
+            <div class="text-center">
+                <p class="small text-secondary mb-0">&copy; 2026 Schedulr Hair Salon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
