@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
-            alert('Your message has been sent successfully! We will contact you soon.');
+            alert('¡Tu mensaje ha sido enviado exitosamente! Nos pondremos en contacto contigo pronto.');
             contactForm.reset();
         });
     }
