@@ -1,0 +1,83 @@
+/* style.css - Global Styles & Variables */
+
+:root {
+    --primary-color: #1a1a1a;    /* Deep Charcoal */
+    --accent-color: #d4af37;     /* Metallic Gold */
+    --accent-hover: #b8962e;
+    --text-light: #f9f9f9;
+    --text-muted: #6c757d;
+    --bg-dark: #121212;
+    --font-main: 'Outfit', sans-serif;
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--primary-color);
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+.text-accent {
+    color: var(--accent-color) !important;
+}
+
+.btn-accent {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    border: none;
+}
+
+.btn-accent:hover {
+    background-color: var(--accent-hover);
+    color: white;
+}
+
+.btn-outline-accent {
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color);
+}
+
+.btn-outline-accent:hover {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+}
+
+.bg-dark {
+    background-color: var(--bg-dark) !important;
+}
+
+/* Navbar */
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    transition: var(--transition);
+}
+
+.nav-link:hover {
+    color: var(--accent-color) !important;
+}
+
+/* Utilities */
+.ls-1 {
+    letter-spacing: 1px;
+}
+
+.hover-up {
+    transition: var(--transition);
+}
+
+.hover-up:hover {
+    transform: translateY(-10px);
+}
+
+.italic {
+    font-style: italic;
+}

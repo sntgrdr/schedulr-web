@@ -1,0 +1,34 @@
+/* about.css - About Section & Carousel Styles */
+
+#about {
+    background-image: linear-gradient(rgba(18,18,18,0.9), rgba(18,18,18,0.9)), url('https://placehold.co/1920x1080?text=Salon+Vibe');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#about .carousel-placeholder {
+    height: 450px;
+    background-image: url('https://placehold.co/800x450?text=Our+Works');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* here it goes an image */
+}
+
+#about .carousel-item {
+    transition: transform 1s ease-in-out;
+}
+
+#about .carousel-caption {
+    background: rgba(0, 0, 0, 0.7);
+    border-top: 3px solid var(--accent-color);
+}
+
+#about .lead {
+    color: #bbb !important;
+}
+
+#about h2 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium Hair Salon - Experience the art of grooming and style at Schedulr Hair Salon.">
+    <title>Schedulr Hair Salon | Premium Style & Grooming</title>
+    
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Modular CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/info.css">
+    <link rel="stylesheet" href="css/booking.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+    <!-- Header & Navbar -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold ls-1" href="#home">
+                    Schedulr <span class="text-accent">Hair Salon</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-uppercase small fw-semibold">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hair-info">Hair Care</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#booking">Book Appointment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-accent text-dark ms-lg-3 px-3 mt-2 mt-lg-0" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="min-vh-100 d-flex flex-column align-items-center justify-content-center py-5">
+            <div class="container text-center">
+                <div class="hero-image-placeholder mx-auto mb-5">
+                    <!-- here it goes an image (main image: 80% width and 1/3 of screen height) -->
+                    <div class="placeholder-overlay">
+                        <h1 class="display-3 fw-bold mb-3">Elevate Your <span class="text-accent">Style</span></h1>
+                        <p class="lead mb-4">The ultimate grooming experience in the heart of the city.</p>
+                    </div>
+                </div>
+                
+                <div class="row g-4 justify-content-center mt-5">
+                    <!-- Card 1 -->
+                    <div class="col-md-5 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm hover-up">
+                            <!-- here it goes an image -->
+                            <div class="card-body p-4">
+                                <h3 class="card-title h5 fw-bold">Professional Haircuts</h3>
+                                <p class="card-text text-muted">Expert barbers and stylists dedicated to crafting your perfect look with precision and care.</p>
+                                <a href="#booking" class="btn btn-outline-accent mt-2">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="col-md-5 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm hover-up">
+                            <!-- here it goes an image -->
+                            <div class="card-body p-4">
+                                <h3 class="card-title h5 fw-bold">Luxury Grooming</h3>
+                                <p class="card-text text-muted">Full-service beard grooming, hot towel shaves, and relaxing treatments for the modern individual.</p>
+                                <a href="#booking" class="btn btn-outline-accent mt-2">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps Fake Interaction -->
+                <div class="row mt-5 pt-5 align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <div class="location-box p-4 border rounded shadow-sm text-start bg-white">
+                            <h4 class="fw-bold mb-3"><i class="bi bi-geo-alt-fill text-accent me-2"></i>Find Us</h4>
+                            <p class="mb-1 text-muted">123 Grooming Lane, Style District</p>
+                            <p class="mb-4 text-muted">New York, NY 10001</p>
+                            <div class="fake-map mb-3 bg-light rounded d-flex align-items-center justify-content-center" style="height: 200px;">
+                                <span class="text-muted">Interactive Map Loading... (<!-- here it goes an image/map -->)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="reviews-box text-start px-lg-4">
+                            <h4 class="fw-bold mb-4">What Our Clients Say</h4>
+                            <div class="review-card mb-3 p-3 border-start border-accent border-4 bg-light rounded">
+                                <div class="d-flex mb-2">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <span class="ms-2 fw-bold small">Alex Morgan</span>
+                                </div>
+                                <p class="small mb-0 italic">"Best haircut I've had in years. The attention to detail is unmatched. Highly recommend!"</p>
+                            </div>
+                            <div class="review-card p-3 border-start border-accent border-4 bg-light rounded">
+                                <div class="d-flex mb-2">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <span class="ms-2 fw-bold small">Jamie Smith</span>
+                                </div>
+                                <p class="small mb-0 italic">"Professional atmosphere and great music. It's more than just a haircut, it's an experience."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us & Our Works -->
+        <section id="about" class="min-vh-100 py-5 bg-dark text-light overflow-hidden">
+            <div class="container py-5">
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <span class="text-accent text-uppercase ls-1 fw-bold mb-2 d-block">Established 2015</span>
+                        <h2 class="display-5 fw-bold mb-4">Crafting Confidence Since Day One</h2>
+                        <p class="lead text-secondary mb-4">Schedulr Hair Salon was founded on the belief that a great haircut can change your day. Our shop has a rich history of serving the community with passion and excellence.</p>
+                        <p class="text-secondary">What started as a small two-chair boutique has grown into a premier destination for grooming. We blend traditional techniques with modern styles to create something truly unique for every client.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="worksCarousel" class="carousel slide shadow-lg rounded overflow-hidden" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#worksCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#worksCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#worksCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner" style="height: 450px;">
+                                <div class="carousel-item active">
+                                    <div class="carousel-placeholder bg-secondary d-flex align-items-center justify-content-center h-100">
+                                        <!-- here it goes an image -->
+                                        <div class="carousel-caption d-none d-md-block p-4 rounded" style="background: rgba(0,0,0,0.6);">
+                                            <h5>Modern Undercut</h5>
+                                            <p>Our signature look for the urban professional.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-placeholder bg-secondary d-flex align-items-center justify-content-center h-100">
+                                        <!-- here it goes an image -->
+                                        <div class="carousel-caption d-none d-md-block p-4 rounded" style="background: rgba(0,0,0,0.6);">
+                                            <h5>Classic Taper Fade</h5>
+                                            <p>Timeless style with a sharp, clean finish.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-placeholder bg-secondary d-flex align-items-center justify-content-center h-100">
+                                        <!-- here it goes an image -->
+                                        <div class="carousel-caption d-none d-md-block p-4 rounded" style="background: rgba(0,0,0,0.6);">
+                                            <h5>Tailored Beard Sculpting</h5>
+                                            <p>Precision grooming to enhance your natural features.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#worksCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#worksCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="min-vh-100 py-5">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-3">Our Work <span class="text-accent">Gallery</span></h2>
+                    <p class="text-muted">Take a look at some of the stunning transformations we've achieved lately.</p>
+                </div>
+                <div class="gallery-grid">
+                    <!-- 7+ images as small gallery -->
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hair Information Section -->
+        <section id="hair-info" class="min-vh-100 py-5 bg-light d-flex align-items-center">
+            <div class="container py-5">
+                <div class="row text-center mb-5">
+                    <div class="col">
+                        <h2 class="display-5 fw-bold">Hair Care <span class="text-accent">& Advice</span></h2>
+                        <hr class="mx-auto border-accent border-3 opacity-100" style="width: 80px;">
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="p-4 bg-white rounded shadow-sm border-top border-accent border-4 h-100">
+                            <div class="icon-circle mb-3 mb-lg-4 text-center">
+                                <i class="bi bi-droplet-fill h3 text-accent"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3 h5">Hydration is Key</h4>
+                            <p class="text-muted small">Keep your hair healthy by staying hydrated and using high-quality moisturizers appropriate for your hair type. Regular conditioning prevents breakage and maintains natural shine.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-4 bg-white rounded shadow-sm border-top border-accent border-4 h-100">
+                            <div class="icon-circle mb-3 mb-lg-4 text-center">
+                                <i class="bi bi-scissors h3 text-accent"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3 h5">Regular Trims</h4>
+                            <p class="text-muted small">Visit a professional every 4-6 weeks to remove split ends and maintain your style's shape. Consistent maintenance prevents damage from climbing up the hair shaft.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-4 bg-white rounded shadow-sm border-top border-accent border-4 h-100">
+                            <div class="icon-circle mb-3 mb-lg-4 text-center">
+                                <i class="bi bi-wind h3 text-accent"></i>
+                            </div>
+                            <h4 class="fw-bold mb-3 h5">Minimize Heat</h4>
+                            <p class="text-muted small">Limit the use of blow dryers and styling irons. When you do use heat, always apply a protectant spray to shield your strands from excessive dryness and structural damage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book an Appointment Section -->
+        <section id="booking" class="min-vh-100 py-5 d-flex align-items-center">
+            <div class="container py-5">
+                <div class="row py-4 justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="booking-card bg-white rounded shadow-lg overflow-hidden border">
+                            <div class="row g-0">
+                                <div class="col-md-6 bg-dark text-light p-5 d-flex flex-column justify-content-between">
+                                    <div>
+                                        <h2 class="display-6 fw-bold mb-4">Reserve Your <span class="text-accent">Experience</span></h2>
+                                        <p class="mb-5 text-secondary">Join us for a session of premium grooming. Select your date and service to get started.</p>
+                                    </div>
+                                    <div class="booking-highlights mb-4">
+                                        <div class="d-flex mb-3 align-items-center">
+                                            <i class="bi bi-patch-check text-accent h4 mb-0 me-3"></i>
+                                            <span class="small fw-semibold">Guaranteed satisfaction</span>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <i class="bi bi-clock-history text-accent h4 mb-0 me-3"></i>
+                                            <span class="small fw-semibold">Punctual & professional</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 p-5">
+                                    <div class="calendar-visual mb-4">
+                                        <h5 class="fw-bold mb-3">April 2026</h5>
+                                        <div class="calendar-grid">
+                                            <div class="cal-day head">Su</div><div class="cal-day head">Mo</div><div class="cal-day head">Tu</div><div class="cal-day head">We</div><div class="cal-day head">Th</div><div class="cal-day head">Fr</div><div class="cal-day head">Sa</div>
+                                            <div class="cal-day empty"></div><div class="cal-day empty"></div><div class="cal-day">1</div><div class="cal-day">2</div><div class="cal-day">3</div><div class="cal-day">4</div><div class="cal-day">5</div>
+                                            <div class="cal-day">6</div><div class="cal-day">7</div><div class="cal-day selected">8</div><div class="cal-day">9</div><div class="cal-day">10</div><div class="cal-day">11</div><div class="cal-day">12</div>
+                                            <!-- ... more days ... -->
+                                        </div>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="serviceSelect" class="form-label fw-bold">Select Service</label>
+                                        <select id="serviceSelect" class="form-select form-select-lg border-2">
+                                            <option selected disabled>Choose a service...</option>
+                                            <option value="cut">Precision Cut & Style ($45)</option>
+                                            <option value="beard">Luxury Beard Sculpting ($30)</option>
+                                            <option value="both">Full Master Grooming ($70)</option>
+                                            <option value="color">Premium Color & Treatment ($90+)</option>
+                                        </select>
+                                    </div>
+                                    <button class="btn btn-dark btn-lg w-100 fw-bold border-accent border-2">BOOK NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="min-vh-100 py-5 bg-light d-flex align-items-center">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="contact-form-container bg-white p-5 rounded shadow-sm">
+                            <div class="text-center mb-5">
+                                <h2 class="fw-bold display-6">Get in <span class="text-accent">Touch</span></h2>
+                                <p class="text-muted">Have a question? We'd love to hear from you.</p>
+                            </div>
+                            <form id="contactForm" class="row g-3">
+                                <!-- Input 1: Name -->
+                                <div class="col-md-6">
+                                    <label for="inputName" class="form-label fw-semibold">Full Name</label>
+                                    <input type="text" class="form-control" id="inputName" placeholder="Enter your name" required>
+                                </div>
+                                <!-- Input 2: Email -->
+                                <div class="col-md-6">
+                                    <label for="inputEmail" class="form-label fw-semibold">Email Address</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" required>
+                                </div>
+                                <!-- Input 3: Phone -->
+                                <div class="col-md-6">
+                                    <label for="inputPhone" class="form-label fw-semibold">Phone Number</label>
+                                    <input type="tel" class="form-control" id="inputPhone" placeholder="+1 (555) 000-0000" required>
+                                </div>
+                                <!-- Input 4: Selector (Subject) -->
+                                <div class="col-md-6">
+                                    <label for="inputSelector" class="form-label fw-semibold">Subject</label>
+                                    <select id="inputSelector" class="form-select" required>
+                                        <option value="" selected disabled>Select an option</option>
+                                        <option value="info">General Information</option>
+                                        <option value="wedding">Wedding Packages</option>
+                                        <option value="careers">Careers</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <!-- Input 5: Radio/Checkbox (Newsletter) -->
+                                <div class="col-12 mt-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="newsletterCheck">
+                                        <label class="form-check-label text-muted small" for="newsletterCheck">
+                                            Sign up for our style newsletter and exclusive offers.
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- Input 6: Comment (Textarea) -->
+                                <div class="col-12">
+                                    <label for="inputComment" class="form-label fw-semibold">Message</label>
+                                    <textarea class="form-control" id="inputComment" rows="4" placeholder="How can we help you?" required></textarea>
+                                </div>
+                                <!-- Buttons: Submit and Reset -->
+                                <div class="col-12 d-flex gap-3 mt-4">
+                                    <button type="submit" class="btn btn-dark px-4 py-2 fw-bold">SEND MESSAGE</button>
+                                    <button type="reset" class="btn btn-outline-secondary px-4 py-2">RESET</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5">
+        <div class="container py-3">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-4 text-accent">Schedulr Hair Salon</h5>
+                    <p class="small text-secondary mb-4">Precision grooming and luxury hair care for the modern individual. Elevating style since 2015.</p>
+                    <div class="social-icons d-flex gap-3 h4">
+                        <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-twitter-x"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-2 ms-lg-auto">
+                    <h6 class="fw-bold mb-4">Quick Links</h6>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="#home" class="text-secondary text-decoration-none hover-accent">Home</a></li>
+                        <li class="mb-2"><a href="#about" class="text-secondary text-decoration-none hover-accent">About</a></li>
+                        <li class="mb-2"><a href="#gallery" class="text-secondary text-decoration-none hover-accent">Gallery</a></li>
+                        <li class="mb-2"><a href="#booking" class="text-secondary text-decoration-none hover-accent">Booking</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <h6 class="fw-bold mb-4">Opening Hours</h6>
+                    <ul class="list-unstyled small text-secondary">
+                        <li class="mb-2 d-flex justify-content-between"><span>Mon - Fri</span> <span>09:00 - 19:00</span></li>
+                        <li class="mb-2 d-flex justify-content-between"><span>Saturday</span> <span>10:00 - 18:00</span></li>
+                        <li class="mb-2 d-flex justify-content-between"><span>Sunday</span> <span>Closed</span></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <h6 class="fw-bold mb-4">Newsletter</h6>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control bg-dark border-secondary text-light small" placeholder="Email address">
+                        <button class="btn btn-accent" type="button"><i class="bi bi-send"></i></button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-5 border-secondary">
+            <div class="text-center">
+                <p class="small text-secondary mb-0">&copy; 2026 Schedulr Hair Salon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS (optional) -->
+    <script src="js/script.js"></script>
+</body>
+</html>

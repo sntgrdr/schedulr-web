@@ -1,0 +1,64 @@
+/* home.css - Home Section Styles */
+
+#home {
+    padding-top: 100px;
+}
+
+.hero-image-placeholder {
+    width: 80%;
+    height: 33.33vh; /* 1/3 of screen height */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://placehold.co/1200x400?text=Premium+Salon+Experience');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.placeholder-overlay {
+    padding: 20px;
+    border: 2px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 80px;
+}
+
+/* Home Cards */
+#home .card {
+    transition: var(--transition);
+    border-radius: 12px;
+}
+
+#home .card:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 200px;
+    background-image: url('https://placehold.co/400x200?text=Style+Preview');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    /* here it goes an image */
+}
+
+/* Location and Reviews */
+.location-box {
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+.fake-map {
+    border: 2px dashed #ddd;
+    color: #999;
+}
+
+.review-card {
+    transition: var(--transition);
+}
+
+.review-card:hover {
+    background: #fdfdfd !important;
+    transform: translateX(5px);
+}

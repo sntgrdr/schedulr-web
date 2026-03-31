@@ -1,0 +1,40 @@
+/* gallery.css - Gallery Grid Styles */
+
+#gallery {
+    padding-top: 80px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    height: 300px;
+    background-color: #eee;
+    background-image: url('https://placehold.co/400x300?text=Salon+Work');
+    background-size: cover;
+    background-position: center;
+    transition: var(--transition);
+    border: 1px solid #ddd;
+    /* here it goes an image */
+}
+
+.gallery-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    z-index: 10;
+}
+
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 360px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
