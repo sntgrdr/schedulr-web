@@ -1,9 +1,9 @@
 /* style.css - Global Styles & Variables */
 
 :root {
-    --primary-color: #1a1a1a;    /* Deep Charcoal */
-    --accent-color: #d4af37;     /* Metallic Gold */
-    --accent-hover: #b8962e;
+    --primary-color: #4F4C4C;    /* Slate Gray */
+    --accent-color: #1A2E87;     /* Royal Blue */
+    --accent-hover: #ffffff;
     --text-light: #f9f9f9;
     --text-muted: #6c757d;
     --bg-dark: #121212;
@@ -29,13 +29,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-accent {
     background-color: var(--accent-color);
-    color: var(--primary-color);
+    color: white;
     border: none;
 }
 
 .btn-accent:hover {
     background-color: var(--accent-hover);
-    color: white;
+    color: #000;
 }
 
 .btn-outline-accent {

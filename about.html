@@ -44,8 +44,8 @@
                         <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
                         <li class="nav-item"><a class="nav-link" href="info.html">Cuidado Capilar</a></li>
                         <li class="nav-item"><a class="nav-link" href="booking.html">Reservar Cita</a></li>
-                        <li class="nav-item"><a class="nav-link btn btn-accent text-dark ms-lg-3 px-3 mt-2 mt-lg-0"
-                                href="index.html#contact">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link btn btn-accent ms-lg-3 px-3 mt-2 mt-lg-0"
+                                href="contact.html">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -55,6 +55,9 @@
     <main>
         <!-- About Us & Our Works -->
         <section id="about" class="min-vh-100 py-5 bg-dark text-light overflow-hidden">
+            <video autoplay muted loop playsinline class="about-video">
+                <source src="img/bucket/about_us/background_us_video.mp4" type="video/mp4">
+            </video>
             <div class="container py-5">
                 <div class="row align-items-center mb-5">
                     <div class="col-lg-6 mb-5 mb-lg-0">
@@ -82,35 +85,21 @@
                             <div class="carousel-inner" style="height: 450px;">
                                 <div class="carousel-item active">
                                     <div
-                                        class="carousel-placeholder bg-secondary d-flex align-items-center justify-content-center h-100">
-                                        <!-- here it goes an image -->
-                                        <div class="carousel-caption d-none d-md-block p-4 rounded"
-                                            style="background: rgba(0,0,0,0.6);">
-                                            <h5>Moderno Desvanecido</h5>
-                                            <p>Nuestro look característico para el profesional urbano.</p>
-                                        </div>
+                                        class="carousel-placeholder d-flex align-items-center justify-content-center h-100">
+                                        <img src="img/bucket/about_us/hair_salon_1.jpg" alt="Moderno Desvanecido">
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div
-                                        class="carousel-placeholder bg-secondary d-flex align-items-center justify-content-center h-100">
-                                        <!-- here it goes an image -->
-                                        <div class="carousel-caption d-none d-md-block p-4 rounded"
-                                            style="background: rgba(0,0,0,0.6);">
-                                            <h5>Clásico Corte Suave</h5>
-                                            <p>Estilo atemporal con un acabado definido y limpio.</p>
-                                        </div>
+                                        class="carousel-placeholder d-flex align-items-center justify-content-center h-100">
+                                        <img src="img/bucket/about_us/har_salon_2.jpg" alt="Clásico Corte Suave">
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div
-                                        class="carousel-placeholder bg-secondary d-flex align-items-center justify-content-center h-100">
-                                        <!-- here it goes an image -->
-                                        <div class="carousel-caption d-none d-md-block p-4 rounded"
-                                            style="background: rgba(0,0,0,0.6);">
-                                            <h5>Esculpido de Barba a Medida</h5>
-                                            <p>Arreglo de precisión para resaltar tus rasgos naturales.</p>
-                                        </div>
+                                        class="carousel-placeholder d-flex align-items-center justify-content-center h-100">
+                                        <img src="img/bucket/about_us/hair_salon_3.jpg"
+                                            alt="Esculpido de Barba a Medida">
                                     </div>
                                 </div>
                             </div>
@@ -140,14 +129,62 @@
                 </div>
                 <div class="gallery-grid">
                     <!-- 7+ images as small gallery -->
-                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
-                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
-                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
-                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
-                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
-                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
-                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
-                    <div class="gallery-item rounded overflow-hidden mb-3"><!-- here it goes an image --></div>
+                    <div class="gallery-item rounded overflow-hidden mb-3">
+                        <img src="img/bucket/about_us/galery_items/haircut.jpg" alt="Corte"
+                            class="img-fluid w-100 h-100 object-fit-cover">
+                        <div class="gallery-overlay">
+                            <span>Corte</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item rounded overflow-hidden mb-3">
+                        <img src="img/bucket/about_us/galery_items/barber.jpg" alt="Barbería"
+                            class="img-fluid w-100 h-100 object-fit-cover">
+                        <div class="gallery-overlay">
+                            <span>Barbería</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item rounded overflow-hidden mb-3">
+                        <img src="img/bucket/about_us/galery_items/brushing.jpg" alt="Brushing"
+                            class="img-fluid w-100 h-100 object-fit-cover">
+                        <div class="gallery-overlay">
+                            <span>Brushing</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item rounded overflow-hidden mb-3">
+                        <img src="img/bucket/about_us/galery_items/dye_hair.jpg" alt="Coloración"
+                            class="img-fluid w-100 h-100 object-fit-cover">
+                        <div class="gallery-overlay">
+                            <span>Coloración</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item rounded overflow-hidden mb-3">
+                        <img src="img/bucket/about_us/galery_items/lowlights.jpg" alt="Iluminación"
+                            class="img-fluid w-100 h-100 object-fit-cover">
+                        <div class="gallery-overlay">
+                            <span>Iluminación</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item rounded overflow-hidden mb-3">
+                        <img src="img/bucket/about_us/galery_items/permanent.jpg" alt="Permanente"
+                            class="img-fluid w-100 h-100 object-fit-cover">
+                        <div class="gallery-overlay">
+                            <span>Permanente</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item rounded overflow-hidden mb-3">
+                        <img src="img/bucket/about_us/galery_items/straightening.jpg" alt="Alisado"
+                            class="img-fluid w-100 h-100 object-fit-cover">
+                        <div class="gallery-overlay">
+                            <span>Alisado</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item rounded overflow-hidden mb-3">
+                        <img src="img/bucket/about_us/galery_items/repear.jpg" alt="Tratamientos de reparación"
+                            class="img-fluid w-100 h-100 object-fit-cover">
+                        <div class="gallery-overlay">
+                            <span>Tratamientos de reparación</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -190,14 +227,7 @@
                         <li class="mb-2 d-flex justify-content-between"><span>Domingo</span> <span>Cerrado</span></li>
                     </ul>
                 </div>
-                <div class="col-md-4 col-lg-3">
-                    <h6 class="fw-bold mb-4">Boletín Informativo</h6>
-                    <div class="input-group mb-3">
-                        <input type="email" class="form-control bg-dark border-secondary text-light small"
-                            placeholder="Correo electrónico">
-                        <button class="btn btn-accent" type="button"><i class="bi bi-send"></i></button>
-                    </div>
-                </div>
+
             </div>
             <hr class="my-5 border-secondary">
             <div class="text-center">
