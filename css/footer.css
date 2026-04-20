@@ -1,36 +1,36 @@
 /* footer.css - Footer Details */
 
 footer {
-    border-top: 5px solid var(--accent-color);
+  border-top: 5px solid var(--accent-color);
 }
 
 footer h5, footer h6 {
-    color: var(--accent-color) !important;
+  color: var(--accent-color) !important;
 }
 
 footer .hover-accent {
-    transition: var(--transition);
+  transition: var(--transition);
 }
 
 footer .hover-accent:hover {
-    color: var(--accent-color) !important;
-    padding-left: 5px;
+  color: var(--accent-color) !important;
+  padding-left: 5px;
 }
 
 footer .social-icons a {
-    transition: var(--transition);
-    opacity: 0.8;
+  transition: var(--transition);
+  opacity: 0.8;
 }
 
 footer .social-icons a:hover {
-    opacity: 1;
-    color: var(--accent-color);
+  opacity: 1;
+  color: var(--accent-color);
 }
 
 footer .form-control {
-    border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
 }
 
 footer .btn-accent {
-    border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
 }

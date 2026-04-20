@@ -1,36 +1,36 @@
 /* info.css - Hair Care Advice Styles */
 
 #hair-info {
-    background-color: #f4f6f9;
+  background-color: #f4f6f9;
 }
 
 #hair-info .icon-circle {
-    width: 60px;
-    height: 60px;
-    background: #fff;
-    border: 2px solid var(--accent-color);
-    border-radius: 50%;
-    line-height: 60px;
-    margin: 0 auto;
-    transition: transform 0.5s ease;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border: 2px solid var(--accent-color);
+  border-radius: 50%;
+  line-height: 60px;
+  margin: 0 auto;
+  transition: transform 0.5s ease;
 }
 
 #hair-info .col-md-4:hover .icon-circle {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 #hair-info h4 {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 #hair-info p {
-    line-height: 1.8;
+  line-height: 1.8;
 }
 
 #hair-info .bg-white {
-    transition: var(--transition);
+  transition: var(--transition);
 }
 
 #hair-info .bg-white:hover {
-    background-color: #fff9e6 !important; /* Slight accent hint */
+  background-color: #fff9e6 !important; /* Slight accent hint */
 }

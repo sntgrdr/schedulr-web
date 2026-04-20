@@ -1,65 +1,65 @@
 /* about.css - About Section & Carousel Styles */
 
 #about {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .about-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: 0;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
-    opacity: 0.4; /* Darker video for better text contrast */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  opacity: 0.4; /* Darker video for better text contrast */
 }
 
 #about::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8));
-    z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8));
+  z-index: 1;
 }
 
 #about .container {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 #about .carousel-placeholder {
-    height: 450px;
-    position: relative;
-    overflow: hidden;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
 }
 
 #about .carousel-item img {
-    height: 450px;
-    width: 100%;
-    object-fit: cover;
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
 }
 
 #about .carousel-item {
-    transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
 }
 
 #about .carousel-caption {
-    background: rgba(0, 0, 0, 0.7);
-    border-top: 3px solid var(--accent-color);
+  background: rgba(0, 0, 0, 0.7);
+  border-top: 3px solid var(--accent-color);
 }
 
 #about .lead {
-    color: #bbb !important;
+  color: #bbb !important;
 }
 
 #about h2 {
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }

@@ -1,83 +1,87 @@
 /* style.css - Global Styles & Variables */
 
 :root {
-    --primary-color: #4F4C4C;    /* Slate Gray */
-    --accent-color: #1A2E87;     /* Royal Blue */
-    --accent-hover: #ffffff;
-    --text-light: #f9f9f9;
-    --text-muted: #6c757d;
-    --bg-dark: #121212;
-    --font-main: 'Outfit', sans-serif;
-    --transition: all 0.3s ease;
+  --primary-color: #4F4C4C;    /* Slate Gray */
+  --accent-color: #1A2E87;     /* Royal Blue */
+  --accent-hover: #ffffff;
+  --text-light: #f9f9f9;
+  --text-muted: #9BA5BA;
+  --bg-dark: #121212;
+  --font-main: 'Outfit', sans-serif;
+  --transition: all 0.3s ease;
 }
 
 body {
-    font-family: var(--font-main);
-    color: var(--primary-color);
-    line-height: 1.6;
-    scroll-behavior: smooth;
+  font-family: var(--font-main);
+  color: var(--primary-color);
+  line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .text-accent {
-    color: var(--accent-color) !important;
+  color: var(--accent-color) !important;
 }
 
 .btn-accent {
-    background-color: var(--accent-color);
-    color: white;
-    border: none;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
 }
 
 .btn-accent:hover {
-    background-color: var(--accent-hover);
-    color: #000;
+  background-color: var(--accent-hover);
+  color: #000;
 }
 
 .btn-outline-accent {
-    border: 2px solid var(--accent-color);
-    color: var(--accent-color);
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
 }
 
 .btn-outline-accent:hover {
-    background-color: var(--accent-color);
-    color: var(--primary-color);
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 .bg-dark {
-    background-color: var(--bg-dark) !important;
+  background-color: var(--bg-dark) !important;
 }
 
 /* Navbar */
 .navbar-brand {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff !important;
 }
 
 .nav-link {
-    transition: var(--transition);
+  transition: var(--transition);
 }
 
 .nav-link:hover {
-    color: var(--accent-color) !important;
+  color: var(--accent-color) !important;
 }
 
 /* Utilities */
 .ls-1 {
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 }
 
 .hover-up {
-    transition: var(--transition);
+  transition: var(--transition);
 }
 
 .hover-up:hover {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 .italic {
-    font-style: italic;
+  font-style: italic;
 }
