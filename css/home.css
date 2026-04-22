@@ -41,6 +41,21 @@
   text-align: center;
 }
 
+.placeholder-overlay h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+.placeholder-overlay .lead {
+  font-size: clamp(0.85rem, 2.5vw, 1.25rem);
+}
+
+@media (max-width: 576px) {
+  .placeholder-overlay {
+    padding: 20px 24px;
+    border-radius: 24px;
+  }
+}
+
 /* Home Cards */
 #home .card {
   transition: var(--transition);
